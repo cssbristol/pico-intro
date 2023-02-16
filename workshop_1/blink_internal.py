@@ -2,7 +2,7 @@
 from machine import Pin
 import time
 
-led = Pin(16, Pin.OUT)
+led = Pin(25, Pin.OUT)
 
 while True:
     led.value(1)
